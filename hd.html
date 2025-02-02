@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSMG-活动_春节晚会</title>
+    <style>
+        body {
+            background-color: #0d0d0d; /* 深色背景 */
+            color: #00ffcc; /* 科技感亮色文字 */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            border: 2px solid #00ffcc;
+            padding: 30px;
+            border-radius: 15px;
+            background-color: #1a1a1a;
+            box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+            animation: glow 2s infinite alternate;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #ffffff;
+            text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+        }
+
+        .button {
+            background-color: #00ffcc;
+            color: #1a1a1a;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+        }
+
+        .button:hover {
+            background-color: #1a1a1a;
+            color: #00ffcc;
+            box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+        }
+
+        .button:active {
+            transform: scale(0.95);
+        }
+
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+            }
+            100% {
+                box-shadow: 0 0 30px #00ffcc, 0 0 60px #00ffcc;
+            }
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        .footer a {
+            color: #00ffcc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CSMG 服务器</h1>
+        <h2>春节晚会活动</h2>
+        <p>欢迎来到 CSMG 服务器的春节晚会！</p>
+        <p>活动时间：未定</p>
+        <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=i2GkO-OnO_Hd7cqD2xfunoR60UztAptJ&authKey=VrSgqyhwVpkzGX%2B4Bd8YGzJFOeoChF%2Fem429IYWvFyX1QBejzYZF3X4C0cM3S49I&noverify=0&group_code=567073268"><button class="button">立即参加（进群）</button></a>
+        <div class="footer">
+            <p>返回主页：<a href="index.html">CSMG 官方网站</a></p>
+        </div>
+    </div>
+</body>
+  </html>
