@@ -1,9 +1,9 @@
 <local:MyCard Title="CSERVERG" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="今日剧场：今日日志：什么，cserverg居然出官网了😲？！他们团队不是没有会前端的吗😅。“去你*的😡，“操蛋侠突然闯入😶”会点文字编辑不是也会一点html😅，傻*😙。“（ha，今日小剧场结束） （今日日志）cserverg主城建好了，服务器已经开放，开始公测！" />
+                    Text="今日剧场：pclII主业已恢复，等一阵子吧。我等你爹个尾巴啊，操你哥的，那玩意我按照你的来，不就是为了方便一些的吗。那玩意我刚整回来你让我咋整。⭐⭐⭐☆☆" />
         <local:MyButton Width="180" Height="35" HorizontalAlignment="Left" Padding="0,4,0,10"
-                    Text="打开服务器官网" EventType="打开网页" EventData="https://xiaohukj.github.io" />
+                    Text="打开服务器官网" EventType="打开网页" EventData="https://go.csmg.qzz.io" />
         <local:MyButton Margin="0,0,10,0" Width="180" Height="35"
                     Text="启动 Minecraft 1.12.2" EventType="启动游戏" EventData="1.12.2" />	
         <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
@@ -12,5 +12,7 @@
                         Text="下载radmin LAN（官网）" EventType="下载文件" EventData="https://download.radmin-lan.cn/download/files/Radmin_LAN_1.4.4642.1.exe" />
        <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="下载radmin LAN（第三方）" EventType="下载文件" EventData="https://down-newasp.bituq.com/pcsoft/soft/5/db/Radmin_LAN.exe" />
+       <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="我们的QQ群" EventType="打开网页" EventData="https://qun.qq.com/universal-share/share?ac=1&authKey=NllWNyfkbuDttVoWwANp6UiYN4i95IGrDSHhG76vvtHlN%2BB8xIvQa0ZYVGvlkVn6&busi_data=eyJncm91cENvZGUiOiI1NjcwNzMyNjgiLCJ0b2tlbiI6InNrYUc2aHJkeHIyb2dYTFdvcDkvdTVLZDhRNDFTdTFaUnh5NFNOZml2UzdlVUlQM28xRzB3NmdZL1Z2VStpbXoiLCJ1aW4iOiI3NTM4NDI3MTYifQ%3D%3D&data=3XrcN3kQn61-K4xMI-RnczrIt9nbZ5ae29MrmIw5zZjBCPT3FsAACZK4zfm18cyBVFhj5JKVGiOIW95dn_mNbw&svctype=4&tempid=h5_group_info" />
 	</StackPanel>
 </local:MyCard>
